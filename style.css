@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 15px;
+}
+
+.play-button {
+    background: yellow;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.best-players {
+    text-align: center;
+    margin: 20px;
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.player-card {
+    background: #333;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.player-card h2 {
+ text-shadow: 3px 3px 3px yellow;
+}
+
+.information {
+    background: #111;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.info-content {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    padding: 10px;
+}
+.h3{
+    color: black;
+    text-shadow: 3px 3px 3px white;
+}
+
+.info_content_box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box_text{ 
+    width: 400px;
+}
+.btn{
+    background: #535353; 
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px ;
+}
+.btn2{
+     background: rgba(255, 194, 0, 1);
+    box-shadow: 3px 3px 3px white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+.footer {
+    background-color: #e1b64a;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-top: 10px solid #222;
+}
+
+.footer-content {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.social-icons a {
+    color: black;
+    font-size: 24px;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
